@@ -16,12 +16,14 @@ h1 {
   text-align: center;
   font-size: 96px;
   color: var(--primary-color);
+  padding-bottom: 20px;
 }
 h2 {
   font-size: 24px;
   text-align: center;
   margin: 0;
   color: var(--secondary-color);
+  font-weight: bolder;
 }
 h3 {
   text-align: center;
@@ -65,6 +67,19 @@ p {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
 .navigation-links a {
   margin: 20px;
@@ -74,12 +89,19 @@ p {
   text-transform: capitalize;
 }
 .contact-link {
-  background: var(--quaternary-color);
+  background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: var(--primary-color);
+  color: #fff;
 }
 .about-link {
-  background: var(--quaternary-color);
+  background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: var(--primary-color);
+  color: #fff;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    text-align: center;
+    font-size: 50px;
+  }
 }
