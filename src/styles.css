@@ -1,36 +1,62 @@
 :root {
-  --primary-color: #93e4c1;
-  --secondary-color: #3baea0;
-  --tertiary-color: #118a7e;
-  --quaternary-color: #1f6f78;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
+
 body {
+  font-family: var(--default-font-family);
   margin: 60px auto;
   max-width: 800px;
+}
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
+}
+
+.btn-branding {
+  color: #fff;
+  background: var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 
 h1 {
   display: block;
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font-family);
   font-weight: bold;
   text-align: center;
   font-size: 96px;
-  color: var(--primary-color);
   padding-bottom: 20px;
 }
 h2 {
   font-size: 24px;
   text-align: center;
   margin: 0;
-  color: var(--secondary-color);
   font-weight: bolder;
 }
 h3 {
   text-align: center;
   font-size: 48px;
   opacity: 0.8;
-  color: var(--secondary-color);
 }
 .about-paragraphs {
   display: flex;
@@ -42,26 +68,22 @@ h3 {
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
-  background: var(--quaternary-color);
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
   display: block;
-  color: var(--primary-color);
 }
 .email-link {
   font-weight: bold;
   display: flex;
   justify-content: center;
-  color: var(--secondary-color);
   font-size: 28px;
   text-decoration: none;
 }
 .homepage-link {
   font-weight: bold;
-  color: var(--quaternary-color);
   text-align: center;
   text-decoration: none;
   display: block;
@@ -80,8 +102,6 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
   color: white;
 }
 .navigation-links a {
@@ -90,16 +110,6 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-}
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: #fff;
-}
-.about-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: #fff;
 }
 
 @media (max-width: 576px) {
