@@ -70,7 +70,6 @@ p {
 .content h3 {
   font-size: 24px;
   line-height: 1.5;
-  margin: 20px 0 0;
   font-family: var(--default-font-family);
 }
 .content p {
@@ -102,14 +101,6 @@ p {
   padding: 120px 60px;
 }
 
-.about-paragraphs {
-  display: flex;
-  margin: 30px 0;
-}
-.about-paragraphs p {
-  margin: 10px;
-}
-
 .email-link {
   font-weight: bold;
   display: flex;
@@ -135,7 +126,7 @@ p {
   .hero {
     padding: 80px 20px;
   }
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
@@ -143,8 +134,4 @@ p {
     padding: 0;
     text-align: center;
   }
-}
-
-img {
-  border-radius: 4px;
 }
