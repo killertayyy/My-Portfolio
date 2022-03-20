@@ -9,30 +9,31 @@ body {
   font-family: var(--default-font-family);
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
-  text-align: center;
+}
+
+h1 {
   font-size: 96px;
   line-height: 1.5;
 }
 h2 {
-  font-family: var(--heading-font-family);
   font-size: 64px;
-  text-align: center;
-  font-weight: bold;
 }
 h3 {
-  text-align: center;
   font-size: 48px;
   opacity: 0.8;
-  font-family: var(--heading-font-family);
 }
-
 h4 {
   font-size: 48px;
 }
-
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
@@ -121,13 +122,13 @@ footer .contact-box {
 }
 
 footer .contact-box p {
+  margin: 0;
 }
 
 footer .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
-  text-align: center;
 }
 
 footer .email-link:hover {
@@ -141,6 +142,7 @@ footer .social-links a {
   padding: 10px 14px;
   font-size: 18px;
   border-radius: 50%;
+  transition: all 100ms ease-in-out;
 }
 
 footer .social-links a:hover {
