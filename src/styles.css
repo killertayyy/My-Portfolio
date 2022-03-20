@@ -105,6 +105,21 @@ p {
   padding: 120px 60px;
 }
 
+.social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+.social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
 a {
   text-decoration: none;
   cursor: pointer;
