@@ -60,9 +60,8 @@ p {
   line-height: 1.5;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
-
 .content h1 {
   font-size: 64px;
   line-height: 80px;
@@ -82,7 +81,6 @@ p {
 .content {
   margin: 30px;
 }
-
 .btn-branding {
   color: #fff;
   background: var(--branding-color);
@@ -91,7 +89,6 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
-
 .btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
@@ -100,11 +97,9 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
-
 .project-description {
   padding: 120px 60px;
 }
-
 .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
@@ -113,17 +108,28 @@ p {
   font-size: 18px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
+  text-decoration: none;
 }
-
 .social-links a:hover {
   color: white;
   background: var(--branding-color);
+  text-decoration: none;
 }
 
-a {
+.social-links-contact a {
+  margin: 0;
+  color: var(--branding-color);
+  padding: 10px 10px 10px 0px;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: all 100ms ease-in-out;
   text-decoration: none;
-  cursor: pointer;
-  text-align: center;
+}
+
+.social-links-contact a:hover {
+  color: var(--secondary-color);
+  background: var(--branding-color);
+  text-decoration: none;
 }
 
 footer {
@@ -148,6 +154,7 @@ footer .email-link {
 
 footer .email-link:hover {
   color: var(--branding-color);
+  text-decoration: none;
 }
 
 footer .social-links a {
@@ -158,11 +165,13 @@ footer .social-links a {
   font-size: 18px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
+  text-decoration: none;
 }
 
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
+  text-decoration: none;
 }
 
 @media (max-width: 900px) {
