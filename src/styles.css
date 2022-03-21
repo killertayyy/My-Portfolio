@@ -128,9 +128,9 @@ p {
 }
 
 .social-links-contact a:hover {
-  color: var(--secondary-color);
-  background: var(--branding-color);
+  color: #272142;
   text-decoration: none;
+  opacity: 70%;
 }
 .project-links a {
   margin: 0;
@@ -189,6 +189,15 @@ footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
   text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+a:hover {
+  text-decoration: none;
+  color: #272142;
 }
 
 @media (max-width: 900px) {
